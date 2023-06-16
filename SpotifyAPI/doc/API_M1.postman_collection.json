@@ -1,0 +1,456 @@
+{
+	"info": {
+		"_postman_id": "10b1c0c2-9d5a-423b-b8b6-afaed8de4a74",
+		"name": "API_M1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17624170"
+	},
+	"item": [
+		{
+			"name": " http://localhost:3000/Albums/count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Albums/count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Albums",
+						"count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Albums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Albums",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Albums",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Albums",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Albums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Albums",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Album/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Album/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Album",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Album/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Album/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Album",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Artistas/Count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Artistas/Count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artistas",
+						"Count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artistas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artistas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artistas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artistas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artistas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artistas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artista/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artista/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artista",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artista/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artista/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artista",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artista/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artista/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artista",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artista/1/Musica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artista/1/Musica",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artista",
+						"1",
+						"Musica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://localhost:3000/Artista/1/Album",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Artista/1/Album",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Artista",
+						"1",
+						"Album"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Musica/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Musica/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Musica",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Musica/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"name\",\r\n  \"genero\": \"genero\",\r\n  \"idArtista\": 0,\r\n  \"datadelancamento\": 0,\r\n  \"idAlbum\": 0\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/Musica/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Musica",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Musica/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Musica/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Musica",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Musicas",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"name\",\r\n  \"genero\": \"genero\",\r\n  \"idArtista\": 0,\r\n  \"datadelancamento\": 0,\r\n  \"idAlbum\": 0\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/Musicas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Musicas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Musicas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Musicas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Musicas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Musicas/Count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Musicas/Count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Musicas",
+						"Count"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,8 @@
+FROM mysql:5.7
+
+WORKDIR /app
+COPY db/setup.sh .
+COPY db/database_v1.sql .
+RUN chmod +x ./setup.sh
+
+CMD ["--init-file", "/app/database_v1.sql"]
